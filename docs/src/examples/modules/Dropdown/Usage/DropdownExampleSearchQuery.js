@@ -5,7 +5,7 @@ import { stateOptions } from '../common'
 // stateOptions = [ { key: 'AL', value: 'AL', text: 'Alabama' }, ...  ]
 
 export default class DropdownExampleSearchQuery extends Component {
-  state = { searchQuery: '' }
+  state = { searchQuery: '', value: '' }
 
   handleChange = (e, { searchQuery, value }) => this.setState({ searchQuery, value })
 
